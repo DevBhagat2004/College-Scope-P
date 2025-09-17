@@ -1,11 +1,19 @@
 [
-  {"value": "id", "label": "Unit ID for Institution" },
+
+  { "value": "id", "label": "Unit ID for Institution" },
   { "value": "school.name", "label": "School Name" },
   { "value": "latest.student.size", "label": "Total Degree Seeking Students" },
   { "value": "latest.cost.tuition.in_state", "label": "In-State Tuition" },
+
   { "value": "latest.completion.completion_rate_less_than_4yr_150nt", "label": "Completion Rate (<4yr, 150% Time)" },
+  { "value": "latest.completion.completion_rate_4yr_150nt", "label": "Completion Rate (4yr, 150% Time)" },
+
   { "value": "latest.student.retention_rate_suppressed.lt_four_year.full_time_pooled", "label": "Full-Time Retention Rate (<4yr, Pooled)" },
+  { "value": "latest.student.retention_rate_suppressed.four_year.full_time_pooled", "label": "Full-Time Retention Rate (4yr, Pooled)" },
+
   { "value": "latest.student.retention_rate_suppressed.lt_four_year.part_time_pooled", "label": "Part-Time Retention Rate (<4yr, Pooled)" },
+  { "value": "latest.student.retention_rate_suppressed.four_year.part_time_pooled", "label": "Part-Time Retention Rate (4yr, Pooled)" },
+
   { "value": "latest.student.demographics.student_faculty_ratio", "label": "Student-to-Faculty Ratio" },
   { "value": "latest.student.part_time_share", "label": "Share of Part-Time Students" },
   { "value": "latest.student.undergrads_non_degree_seeking", "label": "Non-Degree Seeking Undergrads" },
@@ -13,4 +21,6 @@
   { "value": "latest.completion.outcome_percentage_suppressed.all_students.8yr.transfer_pooled", "label": "8-Year Transfer Rate (All Students, Pooled)" },
   { "value": "latest.aid.dcs_pell_grant_rate_pooled", "label": "Pell Grant Recipient Rate (Pooled)" },
   { "value": "latest.repayment.2_yr_bb_fed_repayment_suppressed.ug.default", "label": "Student Loan Default Rate (All Students)" }
+
+
 ]
