@@ -5,6 +5,8 @@ A user-friendly dashboard for searching and comparing college data using the U.S
 ## 🌐 Live Demo
 
 **[Try College Scope Live →](https://college-scope-p.onrender.com/)**
+**[Video](https://youtu.be/hIUuC7h_rg8)**
+
 
 *Experience the dashboard in action - no installation required!*
 
