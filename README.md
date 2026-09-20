@@ -2,19 +2,11 @@
 
 A user-friendly dashboard for searching and comparing college data using the U.S. Department of Education's College Scorecard API.
 
-## 🌐 Live Demo
-
-**[Try College Scope Live →](https://college-scope-p.onrender.com/)**
-**[Video](https://youtu.be/hIUuC7h_rg8)**
-
-
-*Experience the dashboard in action - no installation required!*
-
-## 🎯 Overview
+## Overview
 
 College Scope simplifies the process of finding specific information about colleges and universities. Instead of navigating through complex datasets, users can easily search for any college and select the specific data fields they want to see, all through an intuitive web interface.
 
-## ✨ Features
+## Features
 
 - **Smart Search**: Search for any college or university by name
 - **Custom Data Selection**: Choose from a comprehensive list of data fields (enrollment, costs, outcomes, etc.)
@@ -23,14 +15,14 @@ College Scope simplifies the process of finding specific information about colle
 - **Data Organization**: Results are automatically sorted by data type (integers, floats, strings)
 - **Error Handling**: Clear error messages for invalid searches or missing data
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React.js, Vite
 - **Backend**: Node.js, Express.js
 - **Libraries**: Axios, CORS, React-Select
 - **API**: College Scorecard API (U.S. Department of Education)
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this project, make sure you have:
 
@@ -38,9 +30,7 @@ Before running this project, make sure you have:
 - npm or yarn
 - A College Scorecard API key (free from [collegescorecard.ed.gov](https://collegescorecard.ed.gov))
 
-## 🚀 Installation
-
-> **Want to try it first?** Check out the [live demo](https://college-scope-p.onrender.com/) before installing locally!
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -100,7 +90,7 @@ Before running this project, make sure you have:
 
 3. **Open your browser** and navigate to `http://localhost:5173`
 
-## 📖 How to Use
+## How to Use
 
 1. **Search for a College**: Enter the name of any college or university in the search bar
 2. **Select Data Fields**: Use the dropdown menu to choose which information you want to see (e.g., enrollment size, tuition costs, graduation rates)
@@ -108,7 +98,7 @@ Before running this project, make sure you have:
 4. **View Results**: Results are automatically organized by data type for easy reading
 5. **Reset**: Use the Reset button to clear your search and start over
 
-## 🔧 API Information
+## API Information
 
 This project uses the College Scorecard API with the following structure:
 
@@ -120,7 +110,7 @@ https://api.data.gov/ed/collegescorecard/v1/schools?api_key=YOUR_API_KEY&school.
 - **Data Fields**: All available fields are defined in the College Scorecard Data Dictionary
 - **Latest Data**: The app automatically prefixes fields with "latest." to get the most current data
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 College-Scope-P/
@@ -137,7 +127,7 @@ College-Scope-P/
 └── README.md
 ```
 
-## ⚠️ Error Handling
+## Error Handling
 
 The application includes comprehensive error handling:
 
@@ -145,22 +135,11 @@ The application includes comprehensive error handling:
 - **Invalid College Name**: Returns "Not Being able to get Data from API, check field Name & School Name"
 - **API Rate Limits**: Displays appropriate error messages when rate limits are exceeded
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [U.S. Department of Education](https://www.ed.gov/) for providing the College Scorecard API
 - [College Scorecard](https://collegescorecard.ed.gov/) for making college data accessible
-
-## 📞 Contact
-
-**Dev Bhagat** - [@DevBhagat2004](https://github.com/DevBhagat2004)
 
 Project Link: [https://github.com/DevBhagat2004/College-Scope-P](https://github.com/DevBhagat2004/College-Scope-P)
 
