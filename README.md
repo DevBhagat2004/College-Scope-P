@@ -1,7 +1,3 @@
- College Scope
-
-A user-friendly dashboard for searching and comparing college data using the U.S. Department of Education's College Scorecard API.
-
 ## Overview
 
 College Scope simplifies the process of finding specific information about colleges and universities. Instead of navigating through complex datasets, users can easily search for any college and select the specific data fields they want to see, all through an intuitive web interface.
